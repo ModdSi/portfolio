@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "pixel";
+  src: url("./fonts/joystix monospace.otf");
+  font-weight: normal;
+}
+
+body {
+  max-width: 100%;
+  margin: 0;
+  height: 100vh;
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "pixel";
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container {
+  width: 80vw;
+  background-color: #ffffff;
+  border: 2px #6b6b6b, solid;
+  border-radius: 20px;
+}
+
+#btn {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+#logo {
+  height: 40px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+#logo:hover {
+  scale: 1.1;
+}
+
+#btn:hover {
+  opacity: 1;
+  scale: 1.05;
+}
+
+.main-container:hover {
+  scale: 1.01;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -50px;
+}
+#div1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  height: 200px;
+  width: 100%;
+}
+
+button {
+  border: none;
+  background-color: white;
+  font-family: "pixel";
+  cursor: pointer;
+  font-size: large;
+  margin: 30px;
+  margin-top: 0;
+  color: black;
+  cursor: pointer;
+}
+
+button:hover {
+  scale: 1.2;
+}
