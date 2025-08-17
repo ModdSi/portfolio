@@ -57,6 +57,19 @@ header {
   align-items: center;
   margin-bottom: -50px;
 }
+
+#st-btn {
+  position: fixed;
+  height: 20px;
+  margin: 10px;
+  opacity: 0.6;
+}
+
+#st-btn:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
 #div1 {
   display: flex;
   flex-direction: row;

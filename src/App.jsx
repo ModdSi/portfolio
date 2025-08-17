@@ -6,10 +6,15 @@ import Home from "./home";
 import Main from "./mainPage";
 import ThingsILike from "./thingsILike";
 import SkillSet from "./skillSet";
+import x from "./assets/x.png";
+import a from "./assets/_.png";
 import { useEffect, useState } from "react";
 function App() {
   return (
     <div className="main-container">
+      <div style={{ display: "flex" }}>
+        <img src={x} id="st-btn" />
+      </div>
       <header>
         <div id="div1">
           <img style={{ height: "120px" }} src={gif1} />
